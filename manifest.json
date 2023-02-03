@@ -20,7 +20,7 @@
   "theme_color": "#00FF00",
   "shortcuts" : [
     {
-      "name": "Search current IP",
+      "name": "Add new data",
       "url": "/realpowerusage/newdata.php",
       "description": "Add new data"
     }
