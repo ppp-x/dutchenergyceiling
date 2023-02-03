@@ -1,0 +1,28 @@
+{
+  "short_name": "Real Power Usage",
+  "name": "Real Power Usage",
+  "icons": [
+    {
+      "src": "./energybill.png",
+      "type": "image/png",
+      "sizes": "255x255"
+    },
+    {
+      "src": "./energybill.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/realpowerusage/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/realpowerusage/",
+  "theme_color": "#00FF00",
+  "shortcuts" : [
+    {
+      "name": "Search current IP",
+      "url": "/realpowerusage/newdata.php",
+      "description": "Add new data"
+    }
+  ]
+}
