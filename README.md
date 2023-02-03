@@ -3,4 +3,6 @@ Dutch Energy Ceiling: Calculate your energy bill based on your power consumption
 
 Upload this file to any webhost that supports PHP. A free webhost will do, this script does not use SQL so any free webhost that at least supports PHP is sufficient.
 
-This script is loosely forked from Siteswitch: https://www.puckbarton.nl/siteswitch/ (basically, it just is Siteswitch but heavily stripped down).
+This script is loosely forked from Siteswitch: https://www.puckbarton.nl/siteswitch/ (basically, it just is Siteswitch but heavily stripped down and with the calculations added that calculates how much money you've spent on energy).
+
+It's a super simple script, but sometimes a simple script is all you need :)
