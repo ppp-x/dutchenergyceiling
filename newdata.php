@@ -36,7 +36,7 @@ die();
 
 ?><form action="newdata.php" method="post"><p align="center">
 <table width="70%">
-<tr><td>Day:</td><td><input type="text" name="date" autocomplete="off"></td></tr>
+<tr><td>Day:</td><td><input type="text" name="date" autocomplete="off" value="<?php print(date('l j F Y',strtotime("yesterday"))); ?>"></td></tr>
 <tr><td>Gas:</td><td><input type="number" name="gas" autocomplete="off" size="8" step="0.01">m<sup>3</sup></td></tr>
 <tr><td>Electricity:</td><td><input type="number" name="elec" autocomplete="off" size="8" step="0.01">kWh</td></tr>
 <input type="hidden" name="posted" value="yes"><input name="submit" type="submit" value="Post"></form></table></p>
